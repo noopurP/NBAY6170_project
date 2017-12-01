@@ -40,7 +40,7 @@ A. All the features we intuitively thought would be informative in the dataset f
                        belongings such as Theft, Fraud, Burglary, etc. The taking a ratio of these values 
                        to get a sense of if the area poses a threat to the person or to their belongings.
 
-A. All the features we intuitively thought would be informative in the dataset for clustering Precincts 
+B. All the features we intuitively thought would be informative in the dataset for clustering Precincts 
    (pre_df Pandas dataframe):
     
     1. Precinct - Descriptive feature representing every Precinct. This is categorical in nature and not 
@@ -73,6 +73,16 @@ A. All the features we intuitively thought would be informative in the dataset f
                        number of crimes that were handled by this particular Precinct to get information 
                        as to how effective the Precinct is.
    
+We run the K-Means algorithm on each of the above described Datasets, with k set to 3, which we hoped would 
+intuitively represent - 
+    
+    1. Safe Zipcodes or Well performaing Precincts resp.
+    2. Neutral Zipcodes or Average performing Precincts resp
+    3. Zipcodes marked by high criminal activity or Under performing Precincts
+
+We validated our results by cross-checking how seperate the values were for the crucial features to determine
+if the clusters had segregated well enough for the information to be actionable.
+
 
 
 
