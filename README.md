@@ -16,22 +16,35 @@ A. All the features we intuitively thought would be informative in the dataset f
 
     1. Zipcode - Descriptive feature representing every Zipcode. This is categorical in nature and not 
                  used in KMeans, only used for understanding.
-    2. Borough - Descriptive feature representing the Borough. This is again categorical and not used in KMeans, only used for understanding.
-    3. Avg_timezone0 - This represents the average number of monthly crimes (all categories) within the hours of 00:00 - 06:00AM
+    2. Borough - Descriptive feature representing the Borough. This is again categorical and not 
+                 used in KMeans, only used for understanding.
+    3. Avg_timezone0 - This represents the average number of monthly crimes (all categories) within 
+                       the hours of 00:00 - 06:00AM
     4. Avg_timezone1 - Same as above except for hours of 06:00AM to 12:00PM
     5. Avg_timezone2 - Same as above except for hours of 12:00PM to 18:00PM
     5. Avg_timezone3 - Same as above except for hours of 18:00AM to 00:00AM
     6. Avg_month - Monthly average of all crimes for every Zipcode
-    7. Monthly_trend - Linear correlation coefficient of the number of crimes committed every month over the year
+    7. Monthly_trend - Linear correlation coefficient of the number of crimes committed every month 
+                       over the year
     8. Avg_felony - Monthly average of all Felonies for every Zipcode
-    9. Felony_trend - Linear correlation coefficient of the number of Felonies committed every month over the year
+    9. Felony_trend - Linear correlation coefficient of the number of Felonies committed every month 
+                      over the year
     10. Avg_misdem - Monthly average of all Misdemeanors for every Zipcode
-    11. Misdem_trend - Linear correlation coefficient of the number of Misdemeanors committed every month over the year
+    11. Misdem_trend - Linear correlation coefficient of the number of Misdemeanors committed every 
+                       month over the year
     12. Avg_vio - Monthly average of all Violations for every Zipcode
-    13. Vio_trend - Linear correlation coefficient of the number of Violations committed every month over the year
-    14. Threat_to_PB - Separately calculated the number of crimes committed against the Person such as Homicide, Assualt, Kidnapping and the number of crimes committed against the belongings such as Theft, Fraud, Burglary, etc. The taking a ratio of these values to give a sense of whether the area poses a threat to the person or to their belongings.
+    13. Vio_trend - Linear correlation coefficient of the number of Violations committed every 
+                    month over the year
+    14. Threat_to_PB - Separately calculated the number of crimes committed against the Person 
+                       such as Homicide, Assualt, Kidnapping and the number of crimes committed against the 
+                       belongings such as Theft, Fraud, Burglary, etc. The taking a ratio of these values 
+                       to give a sense of whether the area poses a threat to the person or to their belongings.
 
-A. All the features we intuitively thought would be informative in the dataset for clustering Precincts (pre_df Pandas dataframe):
+A. All the features we intuitively thought would be informative in the dataset for clustering Precincts 
+   (pre_df Pandas dataframe):
+    
+    1. 
+   
 
 
 
