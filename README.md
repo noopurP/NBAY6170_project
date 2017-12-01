@@ -14,7 +14,8 @@ ran a clustering algorithm - K-Means on both of them Independently.
 
 A. All the features we intuitively thought would be informative in the dataset for clustering Zipcodes (zip_df Pandas dataframe):
 
-    1. Zipcode - Descriptive feature representing every Zipcode. This is categorical in nature and not used in KMeans, only used for understanding.
+    1. Zipcode - Descriptive feature representing every Zipcode. This is categorical in nature and not 
+                 used in KMeans, only used for understanding.
     2. Borough - Descriptive feature representing the Borough. This is again categorical and not used in KMeans, only used for understanding.
     3. Avg_timezone0 - This represents the average number of monthly crimes (all categories) within the hours of 00:00 - 06:00AM
     4. Avg_timezone1 - Same as above except for hours of 06:00AM to 12:00PM
