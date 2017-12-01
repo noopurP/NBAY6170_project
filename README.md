@@ -12,7 +12,7 @@ Taking a deeper dive into the Dataset, we saw that none of the features were rea
 We began with feature engineering to expose the information belied in our dataset. We generated two different datasets and
 ran a clustering algorithm - K-Means on both of them Independently.
 
-A. All the features we intuitively thought would be informative in the dataset for finding Zipcodes (zip_df Pandas dataframe):
+A. All the features we intuitively thought would be informative in the dataset for clustering Zipcodes (zip_df Pandas dataframe):
 
     1. Zipcode - Descriptive feature representing every Zipcode. This is categorical in nature and not used in KMeans, only used for understanding.
     2. Borough - Descriptive feature representing the Borough. This is again categorical and not used in KMeans, only used for understanding.
@@ -30,6 +30,7 @@ A. All the features we intuitively thought would be informative in the dataset f
     13. Vio_trend - Linear correlation coefficient of the number of Violations committed every month over the year
     14. Threat_to_PB - Separately calculated the number of crimes committed against the Person such as Homicide, Assualt, Kidnapping and the number of crimes committed against the belongings such as Theft, Fraud, Burglary, etc. The taking a ratio of these values to give a sense of whether the area poses a threat to the person or to their belongings.
 
+A. All the features we intuitively thought would be informative in the dataset for clustering Precincts (pre_df Pandas dataframe):
 
 
 
