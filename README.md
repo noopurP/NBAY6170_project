@@ -14,11 +14,9 @@ ran a clustering algorithm - K-Means on both of them Independently.
 
 A. All the features we intuitively thought would be informative in the dataset for finding Zipcodes (zip_df Pandas dataframe):
 
-    1. Zipcode - Descriptive feature representing every Zipcode. This is categorical in nature and not used in KMeans, only                    used for understanding.
-    2. Borough - Descriptive feature representing the Borough. This is again categorical and not used in KMeans, only used
-                 for understanding.
-    3. Avg_timezone0 - This represents the average number of monthly crimes (all categories) within the hours of 
-                       00:00 - 06:00AM
+    1. Zipcode - Descriptive feature representing every Zipcode. This is categorical in nature and not used in KMeans, only used for understanding.
+    2. Borough - Descriptive feature representing the Borough. This is again categorical and not used in KMeans, only used for understanding.
+    3. Avg_timezone0 - This represents the average number of monthly crimes (all categories) within the hours of 00:00 - 06:00AM
     4. Avg_timezone1 - Same as above except for hours of 06:00AM to 12:00PM
     5. Avg_timezone2 - Same as above except for hours of 12:00PM to 18:00PM
     5. Avg_timezone3 - Same as above except for hours of 18:00AM to 00:00AM
@@ -30,7 +28,7 @@ A. All the features we intuitively thought would be informative in the dataset f
     11. Misdem_trend - Linear correlation coefficient of the number of Misdemeanors committed every month over the year
     12. Avg_vio - Monthly average of all Violations for every Zipcode
     13. Vio_trend - Linear correlation coefficient of the number of Violations committed every month over the year
-    14. Threat_to_PB - Separately calculated the number of crimes committed against the Person such as Homicide, Assualt,                            Kidnapping and the number of crimes committed against the belongings such as Theft, Fraud, Burglary,                          etc. The taking a ratio of these values to give a sense of whether the area poses a threat to the                              person or to their belongings.
+    14. Threat_to_PB - Separately calculated the number of crimes committed against the Person such as Homicide, Assualt, Kidnapping and the number of crimes committed against the belongings such as Theft, Fraud, Burglary, etc. The taking a ratio of these values to give a sense of whether the area poses a threat to the person or to their belongings.
 
 
 
