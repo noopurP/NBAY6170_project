@@ -2,7 +2,7 @@
 Final project for Designing Data Products class
 
 Initial Approach - 
-We attempted to use K-Prototypes algorithm (a substitute for K-Means) as our dataset mainly had Categorical data except for Latitude and Longitude. We hoped to cluster similar incidents to see if there were distinct pattern or similarities within each cluster. The results so obtained seemed extremely vague and could not be validated in any way. There were similarities within clusters and without. So we ditched this line of thinking and adopted a more traditional, "data-sciency" approach.
+We attempted to use K-Prototypes algorithm (a substitute for K-Means) as our dataset mainly had Categorical data except for Latitude and Longitude. We hoped to cluster similar incidents to see if there were distinct pattern or similarities within each cluster. The results so obtained seemed extremely vague and could not be validated in any way. There were similarities within clusters and without (This code can be found in file nypd_dataset.ipynb). So we ditched this line of thinking and adopted a more traditional, "data-sciency" approach (This code can be found in file aiding_nypd.ipynb).
 
 Our goal was to figure out two things - 
 1. The Zipcodes where crime was pre-dominantly higher than other Zipcodes
@@ -82,7 +82,17 @@ intuitively represent -
 
 We validated our results by cross-checking how seperate the values were for the crucial features to determine
 if the clusters had segregated well enough for the information to be actionable.
+(These results can be better followed in the "aiding_nypd.ipynb" notebook)
 
+The clusters had indeed segregated really well marking areas of high, neutral and low criminal activity. 
+A few things that stood out - 
+    1. There was negligible difference in the trends of criminal activity. In hindset we realize our strategy 
+       to be lacking in this as there was general increasing trend in the whole dataset that we ought to have 
+       deducted from all the trend points for every zipcode to be able to better highlight the variations in
+       trends across clusters. 
+    2. There was also negligible difference in the ratio of Threat to Person/Belonging which is surprising 
+       as it implies that there is a balance in the distribution of criminal activities pertaining to either 
+       category across all Zipcodes/Precincts. 
 
 
 
